@@ -16,7 +16,7 @@ services:
     image: cassandra:3
     container_name: rockthejvm-sparkstreaming-cassandra
     ports:
-    - "7000:7000"
+    - "7002:7002"
     - "9042:9042"
     environment:
     - "CASSANDRA_CLUSTER_NAME=OUR_DOCKERIZED_CASSANDRA_SINGLE_NODE_CLUSTER"
